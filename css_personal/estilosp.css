@@ -3,6 +3,7 @@
 https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselector/woman.jpg?20240507020706
 https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselector/man.jpg?20240507020706 */
 
+
 .contenedor-imagenes {
     box-sizing: border-box;
     padding: 0px;
@@ -102,3 +103,28 @@ https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselecto
     transform: scale(1); 
 } 
 
+.botones{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(248, 249, 250)
+}
+#botonoff{
+    color: rgb(13, 110, 253);
+    background-color: white;
+    width: 178px;
+    height: 39px;
+    padding: 5px;
+    text-align: center;
+    border-left-color:rgb(222, 226, 230);
+    border-left-style: solid;
+}
+
+.navbar{
+    padding-bottom: 0px;
+}
+
+.mix{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
