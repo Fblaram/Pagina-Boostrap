@@ -1,8 +1,4 @@
 
-/* 
-https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselector/woman.jpg?20240507020706
-https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselector/man.jpg?20240507020706 */
-
 
 .contenedor-imagenes {
     box-sizing: border-box;
@@ -43,19 +39,11 @@ https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselecto
 
 /* submenu */
 
-.contenedor-submen{
-        max-width: 1000px;
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 20px auto;
-
-}
 .contenedor-submenu {
     position: relative;
     overflow: hidden;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     margin-bottom: 20px;
 }
 
@@ -76,17 +64,17 @@ https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselecto
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 0.3s ease; 
+    transition: opacity 0.4s ease;
 }
 
 .contenedor-texto {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 41px;
+    padding: 20px;
     border: 3px solid white;
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: center;
     transform: scale(0);
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s;
 }
 
 .texto-catalogo {
@@ -100,14 +88,10 @@ https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselecto
 }
 
 .imagen-texto:hover .contenedor-texto {
-    transform: scale(1); 
-} 
-
-.mix{
-    width: 95%;
-    margin: auto;
-    padding: auto;
+    transform: scale(1);
 }
+
+
 #carouselExample img{
     border-radius: 35px;
 }
@@ -146,3 +130,36 @@ https://static.pullandbear.net/2/static2/itxwebstandard/responsive/genderselecto
     margin-top: 40px;
     font-family: sans-serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.imagenes-v figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.imagenes-v img{
+    margin-bottom: 10px;
+}
+.imagenes-v p{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contenedor-vestidos{
+    overflow: hidden;
+}
+
+#centradas p{
+    text-align: center;
+}
+
+#centradas figcaption{
+    text-align: center;
+}
+
+
+
