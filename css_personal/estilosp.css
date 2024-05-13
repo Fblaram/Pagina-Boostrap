@@ -1,4 +1,6 @@
-
+#id{
+    --bs-gutter-x: 0px;
+}
 
 .contenedor-imagenes {
     box-sizing: border-box;
